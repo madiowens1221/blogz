@@ -3,6 +3,7 @@ body {
     width: 800px;
     margin: 0 auto;
     padding: 10px;
+    background-color: ghostwhite;
 }
 
 .error {
@@ -20,6 +21,7 @@ input[type=email] {
     width: 400px;
     font-size: 20px;
     padding: 2px;
+    color: darkmagenta;
 }
 
 textarea {
@@ -27,6 +29,8 @@ textarea {
     height: 200px;
     font-size: 17px;
     font-family: monospace;
+    background-color: snow;
+    color: darkmagenta;
 }
 
 input[type=submit] {
@@ -35,6 +39,7 @@ input[type=submit] {
 
 hr {
     margin: 20px auto;
+    color: red;
 }
 
 .post + .post {
@@ -43,7 +48,8 @@ hr {
 
 .post-title {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
+    color: mediumvioletred;
 }
 
 .post-body {
@@ -65,8 +71,62 @@ nav ul li {
     list-style: none;
     display: inline-block;
     margin-right: 15px;
+    font-weight: lighter;
 }
 
 nav #user-account {
     float: right;
+    font-weight: lighter;
+}
+
+a:hover {
+  background-color: lavender;
+  font-weight: bold;
+}
+
+a:visited {
+  color: plum;
+}
+
+.h1 {
+	display: inline;
+	position: relative;
+	font: 50px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+.h1:after {
+	content: "blog";
+	position: absolute; left: 3px; top: 2px;
+	color: rgba(255,0,0,0.5);
+}
+
+.h2 {
+	display: inline;
+	position: relative;
+	font: 50px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+.h2:after {
+	content: "posts!";
+	position: absolute; left: 3px; top: 2px;
+	color: rgba(255,0,0,0.5);
+}
+
+.h3 {
+	display: inline;
+	position: relative;
+	font: 50px Helvetica, Sans-Serif;
+	letter-spacing: -5px;
+	color: rgba(0,0,255,0.5);
+}
+.h3:after {
+	content: "users!";
+	position: absolute; left: 3px; top: 2px;
+	color: rgba(255,0,0,0.5);
+}
+
+.h4 {
+  color: orchid;
 }
