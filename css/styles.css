@@ -79,13 +79,17 @@ nav #user-account {
     font-weight: lighter;
 }
 
+a:link {
+  color: plum;
+}
+
 a:hover {
   background-color: lavender;
   font-weight: bold;
 }
 
 a:visited {
-  color: plum;
+  color: Lightskyblue;
 }
 
 .h1 {
